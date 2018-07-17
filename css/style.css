@@ -163,6 +163,11 @@ button:not(.disabled):hover {
   background-color: #C97B00;
 }
 
+button.selected {
+  background-color: lightgreen;
+  color: black;
+}
+
 #board {
   position: relative;
   width: 50vw;
